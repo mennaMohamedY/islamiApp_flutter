@@ -13,6 +13,6 @@ class HadeethNum extends StatelessWidget {
     return Row(mainAxisAlignment:MainAxisAlignment.center,children: [
     TextButton(onPressed: (){
       Navigator.pushNamed(context, HadeethDetailsScreen.routeName,arguments: hadeethDetails);
-    }, child:  Text(hadeethDetails.hadeethName,style: IslamiTheme.textStyle25,))],);
+    }, child:  Text(hadeethDetails.hadeethName,style: Theme.of(context).textTheme.bodyMedium,))],);
   }
 }

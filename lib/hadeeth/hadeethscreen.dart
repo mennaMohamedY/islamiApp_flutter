@@ -6,6 +6,7 @@ import 'package:practice_3/hadeeth/hadeethdetails/hadeethdataclass.dart';
 
 import '../home/theme.dart';
 import 'hadeethnum.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class HadeethScreen extends StatefulWidget {
   
@@ -31,11 +32,12 @@ class _HadeethScreenState extends State<HadeethScreen> {
     return Column(crossAxisAlignment: CrossAxisAlignment.center,children: [
       Image(image: AssetImage("assets/images/ahadeth_header_image.png")),
       SizedBox(height: 12),
-      Container(width: double.infinity,height: 2,color: IslamiTheme.primaryColor, ),
+      //Container(width: double.infinity,height: 2,color: IslamiTheme.primaryColor, ),
+      Divider(thickness: 2,),
       SizedBox(height: 5)
-      ,Text("ahadeeth",style: IslamiTheme.textStyle25,),
-      SizedBox(height: 5)
-      ,Container(width: double.infinity,height: 2,color: IslamiTheme.primaryColor, ),
+      ,Text(AppLocalizations.of(context)!.ahadeeth,style: Theme.of(context).textTheme.bodyMedium),
+      SizedBox(height: 5),
+      Divider(thickness: 2),
       SizedBox(height: 5),
       ahadethTitleList.isEmpty? CircularProgressIndicator():
       Expanded(child:
