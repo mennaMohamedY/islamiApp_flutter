@@ -1,0 +1,21 @@
+{
+  "appBar_title":"Islami",
+  "surah_name":"Surah Name",
+  "surah_num":"Surah Number",
+  "tasbeh_num": "Tasbeeh Number",
+  "quran_radio": "Quran Radio",
+  "ahadeeth":"Ahadeeth",
+  "quranTab":"quran",
+  "hadeethTab":"hadeeth",
+  "sebhaTab":"sebha",
+  "radioTab":"radio",
+  "settingsTab":"settings",
+  "language":"language",
+  "english":"English",
+  "arabic":"Arabic",
+  "mode":"Mode",
+  "dark":"Dark",
+  "light":"Light"
+
+
+}

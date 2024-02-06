@@ -19,8 +19,8 @@ class SuraNameAndAyaNum extends StatelessWidget {
         TextButton(onPressed: (){
           Navigator.pushNamed(context, QuranDetailsScreen.routeName,arguments: QuranDetailsDC(SurahName: suraName, SurahIndex: surahNum));
         }, child:
-        Text("$suraName",style: IslamiTheme.textStyle25)),
-        TextButton(onPressed: (){}, child: Text("$surahNum",style: IslamiTheme.textStyle25,))
+        Text("$suraName",style: Theme.of(context).textTheme.bodyMedium)),
+        TextButton(onPressed: (){}, child: Text("$surahNum",style: Theme.of(context).textTheme.bodyMedium))
       ],);
   }
 

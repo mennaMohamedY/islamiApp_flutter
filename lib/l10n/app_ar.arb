@@ -1,0 +1,22 @@
+{
+  "appBar_title":"اسلامي",
+  "surah_name":"اسم السوره",
+  "surah_num":"عدد الايات",
+  "tasbeh_num": "عدد التسبيحات",
+  "quran_radio": "اذاعه القران الكريم",
+  "ahadeeth":"الاحاديث",
+  "quranTab":"قران",
+  "hadeethTab":"حديث",
+  "sebhaTab":"سبحه",
+  "radioTab":"راديو",
+  "settingsTab":"الاعدادات",
+  "language":"اللغه",
+  "english":"الانجيليزيه",
+  "arabic":"العربيه",
+  "mode":"المود",
+  "dark":"مظلم",
+  "light":"مضء"
+
+
+
+}
